@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sprinkles_cupcake_shop.CupcakesActivity"
+    tools:showIn="@layout/activity_cupcakes">
+
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Cupcakes"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="34sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/txtCupcakeBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Birthday Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeBirthday"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeMother"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Mother's Day Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeMother"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeValentine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Valentine's Day Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeValentine"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeBaby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Baby Shower Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeBaby"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeGraduation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Graduation Day Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeGraduation"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeAnniversary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Anniversary Day Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeAnniversary"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeChristmas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Christmas Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeChristmas"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeWedding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Wedding Day Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeWedding"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeBridal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Bridal Shower Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeBridal"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:id="@+id/txtCupcakeFarewell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Farewell Day Cupcakes"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnCupcakeFarewell"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="View"
+            android:textColor="@android:color/background_dark"
+            android:textSize="14sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

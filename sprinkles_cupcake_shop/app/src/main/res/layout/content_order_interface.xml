@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sprinkles_cupcake_shop.OrderInterfaceActivity"
+    tools:showIn="@layout/activity_order_interface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="312dp"
+            android:layout_height="64dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Order Interface"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="34sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/txtOICartNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Cart No"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtOIcartno"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Enter the Cart No"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtOICupcakeCode"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtOIUnitPrice"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtOIQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtOIAddress"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnOIView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="View"
+            android:textSize="24sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btnOIOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="OK"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

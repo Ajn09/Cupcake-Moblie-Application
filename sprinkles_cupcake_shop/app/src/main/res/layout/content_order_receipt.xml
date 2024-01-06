@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sprinkles_cupcake_shop.OrderReceiptActivity"
+    tools:showIn="@layout/activity_order_receipt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="312dp"
+            android:layout_height="64dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Receipt"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="34sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/txtRecieptOrder"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="130dp"
+            android:background="@android:color/transparent"
+            android:text="Order has been Confirmed."
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            app:fontFamily="serif" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="366dp"
+            android:layout_height="126dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="ThankYou
+            --Sprinkles Cupcakes--"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnReceiptNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="New"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sprinkles_cupcake_shop.AdminInterfaceActivity"
+    tools:showIn="@layout/activity_admin_interface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo1"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Interface"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="34sp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnAICupcakeInterface"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="Cupcakes"
+            android:textSize="24sp"
+            android:textColor="@color/material_dynamic_primary40"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btnAIOrderInterface"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Orders"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="24sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

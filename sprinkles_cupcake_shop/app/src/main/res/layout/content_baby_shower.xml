@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sprinkles_cupcake_shop.BabyShowerActivity"
+    tools:showIn="@layout/activity_baby_shower">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/imageView9"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Baby Shower Cupcakes"
+        android:textColor="@color/material_dynamic_primary40"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imagebBaby1"
+        android:layout_width="0dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/baby1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView9" />
+
+    <ImageButton
+        android:id="@+id/imagebBaby2"
+        android:layout_width="0dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/baby2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagebBaby1" />
+
+    <ImageButton
+        android:id="@+id/imagebBaby3"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/baby3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagebBaby2" />
+
+    <ImageButton
+        android:id="@+id/imagebBaby4"
+        android:layout_width="0dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/baby4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagebBaby3" />
+
+    <EditText
+        android:id="@+id/txtBabyShower"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagebBaby4" />
+
+    <Button
+        android:id="@+id/btnBabyShowerGo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Go to place the Order"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtBabyShower" android:backgroundTint="@android:color/holo_blue_light"/> <!-- Set your desired color here -->
+
+    <Button
+        android:id="@+id/btnBabyShowerBack"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:text="Back"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnBabyShowerGo"
+        android:backgroundTint="@android:color/holo_blue_light"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

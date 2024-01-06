@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sprinkles_cupcake_shop.WeddingDayActivity"
+    tools:showIn="@layout/activity_wedding_day">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="312dp"
+            android:layout_height="64dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Wedding Cupcakes"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="34sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+
+        <ImageButton
+            android:id="@+id/imagebWedding1"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/wedding1" />
+
+        <ImageButton
+            android:id="@+id/imagebWedding2"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/wedding2" />
+
+        <ImageButton
+            android:id="@+id/imagebWedding3"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/wedding5" />
+
+        <ImageButton
+            android:id="@+id/imagebWedding4"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/wedding4" />
+
+        <EditText
+            android:id="@+id/txtWeddingDay"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnWeddingDayGo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Go to place the Order"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btnWeddingBack"
+            android:layout_width="393dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Back"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

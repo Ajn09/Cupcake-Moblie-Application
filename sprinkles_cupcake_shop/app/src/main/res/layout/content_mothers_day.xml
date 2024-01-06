@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sprinkles_cupcake_shop.MothersDayActivity"
+    tools:showIn="@layout/activity_mothers_day">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="312dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="Mother's DAy Cupcakes"
+            android:textColor="@color/material_dynamic_primary40"
+            android:textSize="34sp" />
+
+        <ImageButton
+            android:id="@+id/imagebmother1"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/mother1" />
+
+        <ImageButton
+            android:id="@+id/imagebmother2"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/mother3" />
+
+        <ImageButton
+            android:id="@+id/imagebmother3"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/mother4" />
+
+        <ImageButton
+            android:id="@+id/imagebmother4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/mother2" />
+
+        <EditText
+            android:id="@+id/txtMothersday"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnMothersdayGo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Go to place the Order"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btnMothersdayBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Back"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

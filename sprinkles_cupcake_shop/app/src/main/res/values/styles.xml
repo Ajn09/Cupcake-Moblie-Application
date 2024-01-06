@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AnniversaryImageButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="AnniversaryEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">83dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@android:color/background_light</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AnniversaryButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <string-array name="package1">
+        <item> Anniversary Day </item>
+        <item> Baby Shower </item>
+        <item> Birthday </item>
+        <item> Bridal Shower </item>
+        <item> Christmas Day</item>
+        <item> Farewell Day </item>
+        <item> Graduation Day</item>
+        <item> Mother Day </item>
+        <item> Valentine Day </item>
+        <item> Wedding Day </item>
+    </string-array>
+
+    <string-array name="package2">
+        <item> Anniversary Day </item>
+        <item> Baby Shower </item>
+        <item> Birthday </item>
+        <item> Bridal Shower </item>
+        <item> Christmas Day</item>
+        <item> Farewell Day </item>
+        <item> Graduation Day</item>
+        <item> Mother Day </item>
+        <item> Valentine Day </item>
+        <item> Wedding Day </item>
+    </string-array>
+
+    <string-array name="package3">
+        <item> C001 </item>
+        <item> C002 </item>
+        <item> C003 </item>
+        <item> C004 </item>
+        <item> C005 </item>
+        <item> C006 </item>
+        <item> C007 </item>
+        <item> C008 </item>
+        <item> C009 </item>
+        <item> C010 </item>
+        <item> C011 </item>
+        <item> C012 </item>
+        <item> C013 </item>
+        <item> C014 </item>
+        <item> C015 </item>
+        <item> C016 </item>
+        <item> C017 </item>
+        <item> C018 </item>
+        <item> C019 </item>
+        <item> C020 </item>
+        <item> C021 </item>
+        <item> C022 </item>
+        <item> C023 </item>
+        <item> C024 </item>
+        <item> C025 </item>
+        <item> C026 </item>
+        <item> C027 </item>
+        <item> C028 </item>
+        <item> C029 </item>
+        <item> C030 </item>
+        <item> C031 </item>
+        <item> C032 </item>
+        <item> C033 </item>
+        <item> C034 </item>
+        <item> C035 </item>
+        <item> C036 </item>
+        <item> C037 </item>
+        <item> C038 </item>
+        <item> C039 </item>
+        <item> C040 </item>
+    </string-array>
+
+    <string-array name="package4">
+        <item> Member </item>
+        <item> Admin </item>
+    </string-array>
+</resources>
